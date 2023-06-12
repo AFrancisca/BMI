@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+}
+
+form.Mark, form.John {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 540px;
+  background-color: #fff;
+  padding: 40px 30px 70px;
+  margin: 100px auto 20px;
+  border-radius: 15px;
+  box-sizing: border-box;
+  justify-content: center;
+
+  }
+  form.Mark{
+    margin-left: 75px;
+  }
+  form.John{
+  margin-left: 150px;
+  }
+  
+  form.Mark label,
+  form.John label {
+    display: block;
+  }
+  
+  form.Mark input,
+  form.John input {
+    margin-bottom: 10px;
+  }
+  
+  form.Mark button,
+  form.John button {
+    margin-top: 10px;
+  }
+  
+  form.Mark input#result,
+  form.John input#result2 {
+    width: 100%;
+  }
+  body{
+    background-color: bisque;
+  }
+  h2{
+    margin-left: 40px;
+  }
+  #answer{
+    margin-left: 40px;
+  }
+  #compare{
+    size: 100px;
+  }
+  
