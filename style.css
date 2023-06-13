@@ -2,7 +2,8 @@
   display: flex;
 }
 
-form.Mark, form.John {
+.Mark-form, 
+.John-form {
   display: inline-block;
   vertical-align: top;
   margin-bottom: 10px;
@@ -16,30 +17,28 @@ form.Mark, form.John {
   justify-content: center;
 
   }
-  form.Mark{
+  .Mark-form{
     margin-left: 75px;
   }
-  form.John{
+  .John-form{
   margin-left: 150px;
   }
   
-  form.Mark label,
-  form.John label {
+ label{
     display: block;
   }
   
-  form.Mark input,
-  form.John input {
+input {
     margin-bottom: 10px;
   }
   
-  form.Mark button,
-  form.John button {
+  .Mark,
+  .John {
     margin-top: 10px;
   }
   
-  form.Mark input#result,
-  form.John input#result2 {
+  #resultMark,
+  #resultJohn {
     width: 100%;
   }
   body{
@@ -53,5 +52,6 @@ form.Mark, form.John {
   }
   #compare{
     size: 100px;
+    margin-left: 40px;
   }
   
